@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    padding: 1em;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fishTank {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px dotted black;
+}
+
+.fishList {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fishList_card {
+    margin: 1em;
+    flex-basis: 25%;
+    background-color: tomato;
+}
+
+.fishList_card ul {
+    list-style: none;
+    padding: 0 2em;
+}
+
+.card_image {
+
+}
+
+.image_fish {
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    flex: 1;
+    background-color: lightskyblue;
+}
