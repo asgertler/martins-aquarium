@@ -11,13 +11,10 @@ export const FishList = () => {
     // Generate all of the HTML for all of the fish
     let fishHTMLRepresentations = ""
     for (const fish of fishes) {
-        
+        fishHTMLRepresentations += Fish(fish);
     };
 
     contentElement.innerHTML += `
-        <div class="fishList">
-        All the fish go here!
             ${fishHTMLRepresentations}
-        </div>
     `
 };
