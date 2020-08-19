@@ -50,6 +50,8 @@ const fishCollection = [
     }
 ]
 
+// export a function that will return a copy of the original array
+// this uses the slice method to make the copy
 export const useFish = () => {
     return fishCollection.slice()
 }
