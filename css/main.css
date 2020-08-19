@@ -48,3 +48,7 @@ aside {
     flex: 1;
     background-color: lightskyblue;
 }
+
+.tipList {
+    padding: 10px;
+}
