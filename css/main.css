@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
+    margin: 0;
 }
 
 header {
@@ -35,11 +36,7 @@ header img {
 
 .fishList_card ul {
     list-style: none;
-    padding: 0 2em;
-}
-
-.card_image {
-
+    padding: 0 20px;
 }
 
 .image_fish {
@@ -50,4 +47,16 @@ header img {
 aside {
     flex: 1;
     background-color: lightskyblue;
+}
+
+.tipList {
+    padding: 10px;
+}
+
+.locationList {
+    display: flex;
+}
+
+.locationList ul {
+    list-style: none;
 }
