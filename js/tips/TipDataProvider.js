@@ -9,7 +9,7 @@ const tipCollection = [
     },
     {
         name: "Tip #3",
-        tip: "Make sure to say hi every day!"
+        tip: "Fish are friends, not food!"
     }
 ];
 

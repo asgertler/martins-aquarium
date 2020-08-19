@@ -52,3 +52,11 @@ aside {
 .tipList {
     padding: 10px;
 }
+
+.locationList {
+    display: flex;
+}
+
+.locationList ul {
+    list-style: none;
+}

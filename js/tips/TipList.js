@@ -5,12 +5,12 @@ export const TipList = () => {
     const contentElement = document.querySelector(".tipList")
     const tips = useTips()
 
-    let fishHTMLRepresentations = ""
+    let tipHTMLRepresentation = ""
     for (const tip of tips) {
-        fishHTMLRepresentations += Tip(tip);
+        tipHTMLRepresentation += Tip(tip);
     };
 
     contentElement.innerHTML += `
-            ${fishHTMLRepresentations}
+            ${tipHTMLRepresentation}
     `
 };
