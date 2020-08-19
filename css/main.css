@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
+    margin: 0;
 }
 
 header {
@@ -36,10 +37,6 @@ header img {
 .fishList_card ul {
     list-style: none;
     padding: 0 2em;
-}
-
-.card_image {
-
 }
 
 .image_fish {
