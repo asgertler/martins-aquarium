@@ -51,6 +51,25 @@ aside {
 
 .tipList {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tipList_card {
+    background-color: lightgreen;
+    padding: 25px;
+    margin: 10px;
+}
+
+.tipList_card h3 {
+    color: white;
+    font-size: 2em;
+    margin: 0 0 5px 0;
+}
+
+.tipList_card p {
+    color: rgba(0, 0, 0, .75);
+    margin: 5px 0 0 0;
 }
 
 .locationList {
