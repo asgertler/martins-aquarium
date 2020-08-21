@@ -1,16 +1,24 @@
 // FishList.js renders individual fish objects as HTML
 
-import {useFish} from './FishDataProvider.js';
+import {mostHolyFish, soldierFish, nonHolyFish, useFish} from './FishDataProvider.js';
 import {Fish} from './Fish.js';
 
 export const FishList = () => {
-    // Get a reference to the '<div class="content">' element
-    const contentElement = document.querySelector(".fishList")
-    const fishes = useFish()
+    // const fishes = useFish();
+    const tier1 = mostHolyFish();
+    addFishToDom(tier1); 
 
-    // Generate all of the HTML for all of the fish
+    const tier2 = soldierFish();
+    addFishToDom(tier2);
+
+    const tier3 = nonHolyFish();
+    addFishToDom(tier3);
+};
+
+const addFishToDom = (whichFishArr) => {
+    const contentElement = document.querySelector(".fishList")
     let fishHTMLRepresentations = ""
-    for (const fish of fishes) {
+    for (const fish of whichFishArr) {
         fishHTMLRepresentations += Fish(fish);
     };
 
